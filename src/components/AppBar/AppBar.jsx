@@ -7,7 +7,6 @@ import { useSelector } from 'react-redux';
 
 export const AppBar = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
-  console.log(isLoggedIn);
 
   return (
     <AppBarStyled>

@@ -1,8 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://nonnections-api.herokuapp.com';
-
 export const fetchTasks = createAsyncThunk(
   'tasks/fetchAll',
   async (_, thunkAPI) => {
